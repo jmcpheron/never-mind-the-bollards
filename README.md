@@ -1,7 +1,7 @@
 # NEVER MIND THE BOLLARDS
-## _A little less Anarchy in the parking lot..._
+##  _(...a  little less "Anarchy in the parking lot"..._)
 
-![Bollard Cap Banner](https://github.com/yourusername/never-mind-the-bollards/raw/main/images/banner.png)
+![Bollard Cap Banner](openscad-scren-shot.png)
 
 ## ABOUT THE PROJECT
 
