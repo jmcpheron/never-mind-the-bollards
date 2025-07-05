@@ -1,0 +1,27 @@
+name: Generate Logo
+on:
+  workflow_dispatch:
+    inputs:
+      project_name:
+        description: 'Your project name'
+        required: true
+        default: ${{ github.event.repository.name }}
+      description:
+        description: 'What does your project do?'
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jmcpheron/chiaro-oscuro@v1
+        with:
+          project-name: ${{ inputs.project_name }}
+          description: ${{ inputs.description }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
