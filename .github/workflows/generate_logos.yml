@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Generate logo with AI
-        uses: jmcpheron/chiaro-oscuro@v1
+        uses: jmcpheron/chiaro-oscuro@main
         with:
           project-name: ${{ github.event.repository.name }}
           description: ${{ inputs.description }}
