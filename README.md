@@ -1,4 +1,13 @@
 # NEVER MIND THE BOLLARDS
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.svg">
+    <img src="assets/logo-light.svg" alt="Project logo" width="200">
+  </picture>
+</p>
+
 ##  _(...a  little less "Anarchy in the parking lot"..._)
 
 ![Bollard Cap Banner](openscad-scren-shot.png)
